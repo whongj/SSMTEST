@@ -1,0 +1,54 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com.wdsznb.books.mappers.UserProductConnectionMapper">-->
+
+    <!--<sql id="all_column">-->
+        <!--uid,bname,lenddate-->
+    <!--</sql>-->
+
+    <!--<insert id="insert" parameterType="UserProductConnection">-->
+        <!--insert into lendbooks(<include refid="all_column"/>)-->
+        <!--values-->
+        <!--(#{uid},#{bname},#{lenddate})-->
+    <!--</insert>-->
+
+    <!--<update id="update" parameterType="UserProductConnection">-->
+        <!--update lendbooks-->
+        <!--set bname =#{bname},lenddate=#{lenddate}-->
+        <!--where uid=#{uid}-->
+    <!--</update>-->
+
+    <!--<delete id="delete" parameterType="UserProductConnection">-->
+        <!--delete from lendbooks where id=#{id}-->
+    <!--</delete>-->
+
+    <!--<select id="getAllObject" resultType="UserProductConnection">-->
+        <!--select <include refid="all_column"/>-->
+        <!--from lendbooks-->
+    <!--</select>-->
+
+    <!--<select id="getAObjectById" parameterType="String" resultType="UserProductConnection">-->
+        <!--select <include refid="all_column"/>-->
+        <!--from lendbooks-->
+        <!--where id=#{value}-->
+    <!--</select>-->
+
+    <!--<select id="getAUserProductByUserIdStateIs1" parameterType="String" resultType="UserProductConnection">-->
+        <!--select <include refid="all_column"/>-->
+        <!--from lendbooks-->
+        <!--where userid=#{value} and state=1-->
+    <!--</select>-->
+
+    <!--<select id="getConnidByUserIdAndProductId" parameterType="UserProductConnection" resultType="String">-->
+        <!--select id from lendbooks-->
+        <!--where userid=#{userid} and productid=#{productid} and state=1;-->
+    <!--</select>-->
+
+
+    <!--<select id="getAUserProductByUserIdStateIs2" parameterType="String" resultType="UserProductConnection">-->
+        <!--select <include refid="all_column"/>-->
+        <!--from lendbooks-->
+        <!--where userid=#{value} and state=2-->
+    <!--</select>-->
+
+<!--</mapper>-->

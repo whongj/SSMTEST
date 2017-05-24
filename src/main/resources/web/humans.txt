@@ -1,0 +1,26 @@
+/* TEAM */
+    Name: zhangxin
+    QQ: 835234416
+    From: zhongbeidaxue
+    Email: tyranitarx@163.com
+
+    Name: wanghongjie
+    QQ: 498816896
+    From: zhongbeidaxue
+    Email: 498816896@qq.com
+
+    Name: wangxupu
+    QQ: 1648557071
+    From: zhongbeidaxue
+    Email: 1648557071@qq.com
+
+/* THANKS */
+    thanks ZBDX
+
+/* SITE */
+    Language: Chinese
+    Doctype: HTML5
+    Standards: HTML5,CSS3
+    Components: JQuery,WeUI
+    Core: java,Python,spring,spring mvc,mybatis
+    IDE: Intellij IDEA,WebStorm,pycharm
